@@ -1,0 +1,41 @@
+html {
+  background-color: tomato;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#first {
+  height: 200px;
+  width: 200px;
+  background-color: wheat;
+  border: solid;
+}
+
+#second {
+  height: 45px;
+  width: 45px;
+  background-color: teal;
+  margin: 15px 75px;
+  border: solid white;
+}
+
+#third {
+  height: 40px;
+  width: 170px;
+  background-color: teal;
+  border: dashed white;
+  margin: -5px 15px;
+}
+
+#four {
+  height: 45px;
+  width: 45px;
+  background-color: teal;
+  margin: 15px 75px;
+  border: solid white;
+}
