@@ -1,0 +1,43 @@
+html {
+  background-color: whitesmoke;
+}
+body {
+  height: 100%;
+}
+h1 {
+  text-align: center;
+}
+div {
+  display: flex;
+  justify-content: center;
+  margin: 20px 10px;
+}
+.total_box {
+  flex-wrap: wrap;
+}
+.big_box {
+  width: 150px;
+  height: 250px;
+  border: solid white;
+}
+.big_box:nth-child(1) {
+  background-color: tomato;
+}
+.big_box:nth-child(2) {
+  background-color: teal;
+}
+.big_box:nth-child(3) {
+  background-color: burlywood;
+}
+.big_box:nth-child(4) {
+  background-color: thistle;
+}
+span {
+  background-color: white;
+  display: block;
+  width: 150px;
+  height: 75px;
+  margin: 15px 0px;
+  font-weight: bold;
+  line-height: 200%;
+}
