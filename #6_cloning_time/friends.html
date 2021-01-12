@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="wclassth=device-width, initial-scale=1.0">
-    <title>Welcome to Kokoa Clone</title>
+    <title>Friends - Kokoa talk</title>
     <link rel="stylesheet" href="css/style.css?ver1">
 </head>
 <body>
@@ -22,19 +22,21 @@
         </div>
     </div>
 
-    <header class="welcome-header">
-        <h1 class="welcome-header__title">Welcome to Kokoa Clone</h1>
-        <p class="welcome-header__text">If you have a Kokoa Account, log in with your email or phone number.
-        </p>
-    </header>
-
-    <form action="friends.html" method="get" id="login-form">
-        <input name="username" type="text" placeholder="Eamil or phone number"/>
-        <input name="password" type="password" placeholder="Password" />
-        <input type="submit" value="Log In" />
-        <a href="#">Find Kokoa Account or Password</a>
-     </form>
-
+    <nav class="nav">
+        <ul class="nav__list">
+            <li class="nav__btn">
+                <a class="nav__link" href="friends.html"
+                ><i class="fas fa-user fa-2x"></i
+                    ></a>
+                </li>
+            <li class="nav__btn">
+                <a class="nav__link" href="#"><i class="far fa-comment fa-2x"></i></a></li>
+            <li class="nav__btn">
+                <a class="nav__link" href="#"><i class="fas fa-search fa-2x"></i></a></li>
+            <li class="nav__btn">
+                <a class="nav__link" href="#"><i class="fas fa-ellipsis-h fa-2x"></i></a></li>
+        </ul>
+    </nav>
     <link rel="stylesheet" 
     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css"/>
 </body>
