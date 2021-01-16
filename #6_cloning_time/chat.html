@@ -3,10 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="wclassth=device-width, initial-scale=1.0">
-    <title>Chats</title>
+    <title>Chat w/ Bombi/title</title>
     <link rel="stylesheet" href="css/style.css?ver1">
 </head>
-<body>
+<body id="chat-screen">
     <div class="status-bar">
         <div class="status-bar__column">
             <span>No Service</span>
@@ -22,44 +22,39 @@
         </div>
     </div>
 
-    <header class="screen-header">
-        <h1 class="screen-header__title">Chats</h1>
-        <div class="screen-header__icons">
-            <span>
-                <i class="fas fa-search fa-lg"></i>
-            </span>
-            <span>
-                <i class="far fa-comment-dots fa-lg">                    
-                </i>
-            </span>
-
-            <span>
-                <i class="fas fa-music fa-lg"></i>
-            </span>
-            <span>
-                <i class="fas fa-cog fa-lg"></i>
-            </span>
-        </span>
+    <header class="alt-header">
+        <div class="alt-header__column">
+            <a href="chats.html">
+                <i class="fas fa-angle-left fa-3x"></i>
+            </a>
+        </div>
+        <div class="alt-header__column">
+            <h1 class="alt-header__title">봄비</h1>
+        </div>
+        <div class="alt-header__column">
+            <span><i class="fas fa-search fa-lg"></i></span>
+            <span><i class="fas fa-bars fa-lg"></i></span>
+        </div>
     </header>
 
+    <main class="main-screen main-chat">
+        <div class="chat__timestamp">
+            Tuesday, June 30, 2020
+        </div>
 
-    <main class="main-screen">
-        <a href="chat.html">
-            <div class="user-component">
-            <div class="user-component__column">
-                <img src="https://avatars0.githubusercontent.com/u/63907578?s=60&v=4" 
-                class="user-component__avatar user-component__avatar" />
-                <div class="user-component__text">
-                    <h4 class="user-component__title">Bombi</h4>
-                    <h6 class="user-component__subtitle">Please check My Kokoa Account Info</h6>
-                </div>
+        <div class="message-row">
+            <img src="https://avatars0.githubusercontent.com/u/63907578?s=60&v=4">
+            <div class="message-row__content">
+                 <span class="message__author">Bombi</span>
+                 <div class="message__ingo">
+                     <span class="message__bubble">Hi!</span>
+                     <span class="message__time">21:27</span>
+                 </div>
             </div>
-            <div class="user-component__column">
-                <span class="user-component__time">21:22</span>
-                <div class="badge">1</div>
-            </div>
-            </div>   
-        </a>
+
+        </div>    
+
+
     </main>
 
     <nav class="nav">
