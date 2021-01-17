@@ -30,7 +30,27 @@
   align-items: center;
   margin-bottom: 10px;
 }
+.icon-image {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.more-suggestions__icon .icon_image i {
+  width: 60px;
+  height: 60px;
+  border-radius: 10px;
+  color: blue;
+}
 .more-suggestions__icon-image i {
   font-size: 32px;
   color: white;
+}
+.more-suggestions__icon .text {
+  margin-top: 11px;
+}
+.icon2 .icon_image i {
+  margin-left: 11px;
 }

@@ -2,6 +2,9 @@
   justify-content: space-between;
 }
 
+.user-component-friends {
+  margin-top: 20px;
+}
 .user-component,
 .user-component__column:first-child {
   display: flex;
@@ -40,4 +43,8 @@
 .user-component__time {
   margin-bottom: 10px;
   display: block;
+}
+
+.user-component2 {
+  margin-top: 20px;
 }
